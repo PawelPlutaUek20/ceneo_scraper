@@ -8,10 +8,10 @@
 - potwierdzona zakupem: div.product-review-pz
 - data wystawienia: span.review-time > time["datetime"] - pierwszy element listy
 - data zakupu: span.review-time > time["datetime"] - drugi element listy
-- przydatna: span[id=^vote-yes]
+- przydatna: span[id=^votes-yes]
              button.vote-yes["data-total-vote"]
              button.vote-yes > span
-- nieprzydatna: span[id=^vote-no]
+- nieprzydatna: span[id=^votes-no]
                 button.vote-no["data-total-vote"]
                 button.vote-no > span
 - treść: p.product-review-body

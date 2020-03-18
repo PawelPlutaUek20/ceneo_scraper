@@ -14,7 +14,6 @@ opinions = page_tree.find_all("li", "review-box")
 
 #wydobycie składowych dla pojedynczej opinii
 for opinion in opinions:
-    opinion = opinions.pop()
     opinion_id = opinion["data-entry-id"]
     author = opinion.find("div", "reviewer-name-line").string
     try:

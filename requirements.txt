@@ -6,6 +6,7 @@ chardet==3.0.4
 idna==2.9
 lazy-object-proxy==1.4.3
 mccabe==0.6.1
+pprint==0.1
 requests==2.23.0
 six==1.14.0
 soupsieve==2.0

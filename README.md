@@ -19,9 +19,13 @@
 - zalety: div.pros-cell > ul
 ## Etap 2 - pobranie składowych wszystkich opinii z pojedynczej strony
 - zapisanie składowych opinii w złożonej strukturze danych
-## Etap 3 - pobieranie wszystkich opinii o pojedynczym produkcie
+## Etap 3 - pobranie wszystkich opinii o pojedynczym produkcie
 - przechodzenie po stronach z opiniami
 - eksport opinii do pliku (.csv lub .xlsx lub .json)
 ## Etap 4
 - transformacja danych
 - refaktoryzacja kodu
+## Etap 5
+- zapis danych do obiektu dataframe (ramka danych)
+- wykonanie podstawowych obliczeń na danych w ramce danych
+- wykonanie prostych wykresów na podstawie danych w ramce danych

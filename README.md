@@ -49,4 +49,5 @@
         /requirements.txt
         /README.md
         /.venv
--widok
+- widoki (Jinja)
+- routingi

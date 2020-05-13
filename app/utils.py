@@ -1,9 +1,6 @@
-#funkcja do ekstrakcji składowych opinii
-def extract_feature(opinion, tag, tag_class, child=None):
+#funkcja do usuwania znaków formatujących
+def remove_whitespaces(string):
     try:
-        if child:
-            return opinion.find(tag, tag_class).find(child).get_text().strip()
-        else:
-            return opinion.find(tag, tag_class).get_text().strip()
+        return string.replace("\n", ", ").replace("\r", ", ")
     except AttributeError:
-        return None
+        pass
